@@ -1,0 +1,41 @@
+{
+  "name": "AwesomeProject",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-native-scripts": "1.1.0",
+    "jest-expo": "~19.0.0",
+    "react-test-renderer": "16.0.0-alpha.12",
+    "snazzy": "^2.0.1",
+    "standard": "^5.4.1"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "es6-enum": "^1.0.0",
+    "expo": "^19.0.0",
+    "mkp-react-native-tab-view": "^1.2.4",
+    "moment-timezone": "^0.4.1",
+    "react": "16.0.0-alpha.12",
+    "react-native": "^0.46.4",
+    "react-native-complex-user-register": "^1.0.3",
+    "react-native-icons": "^0.7.0",
+    "react-native-scrollable-view": "^0.1.0",
+    "react-native-tabs": "^1.0.9",
+    "react-navigation": "^1.0.0-beta.11",
+    "react-redux": "^3.1.0",
+    "redux": "^3.0.4",
+    "redux-thunk": "^1.0.0",
+    "whatwg-fetch": "^0.10.1"
+  }
+}
